@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or its tables, please cite it and, above all, the GCAT catalogue it is built on."
+title: "space-launches-in-data: every orbital launch attempt, 1957-2026, from GCAT"
+version: 0.1.0
+date-released: 2026-11-20
+license: MIT
+repository-code: https://github.com/ChristianJair27/space-launches-in-data
+authors:
+  - family-names: Jair
+    given-names: Christian
+    affiliation: Kister Space
+references:
+  - type: data
+    authors:
+      - family-names: McDowell
+        given-names: Jonathan C.
+    title: "General Catalog of Artificial Space Objects"
+    year: 2020
+    url: "https://planet4589.org/space/gcat"
+    license: CC-BY-4.0

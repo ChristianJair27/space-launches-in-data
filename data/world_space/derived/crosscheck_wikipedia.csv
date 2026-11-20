@@ -1,0 +1,17 @@
+region,year,launches_gcat,successes_gcat,launches_wiki,successes_wiki
+China,2024,68,66,68,65
+Europe,2024,3,3,3,2
+India,2024,5,5,5,5
+Japan,2024,7,5,7,5
+Other,2024,5,4,5,4
+Russia,2024,17,17,17,17
+USA,2024,157,156,156,155
+World,2024,262,256,261,253
+China,2025,92,90,93,90
+Europe,2025,8,7,8,7
+India,2025,5,4,5,4
+Japan,2025,4,3,4,3
+Other,2025,5,2,5,2
+Russia,2025,17,17,17,17
+USA,2025,198,195,198,194
+World,2025,329,318,330,317

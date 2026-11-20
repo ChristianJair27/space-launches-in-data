@@ -1,0 +1,713 @@
+{
+ "gcat_updated": "2026 Nov 19 0316:21",
+ "satcat_updated": "2026 Nov 19 0317:20",
+ "attempts_total": 7431,
+ "successes_total": 6923,
+ "first_year": 1957,
+ "last_year": 2026,
+ "record_year": 2025,
+ "record_year_attempts": 329,
+ "by_group_all_time": {
+  "SpaceX": {
+   "attempts": 732,
+   "successes": 725,
+   "success_rate": 0.9904
+  },
+  "USA (other)": {
+   "attempts": 1740,
+   "successes": 1572,
+   "success_rate": 0.9034
+  },
+  "Rocket Lab": {
+   "attempts": 92,
+   "successes": 88,
+   "success_rate": 0.9565
+  },
+  "USSR/Russia": {
+   "attempts": 3349,
+   "successes": 3140,
+   "success_rate": 0.9376
+  },
+  "China (state)": {
+   "attempts": 692,
+   "successes": 667,
+   "success_rate": 0.9639
+  },
+  "China (commercial)": {
+   "attempts": 123,
+   "successes": 107,
+   "success_rate": 0.8699
+  },
+  "Europe": {
+   "attempts": 393,
+   "successes": 371,
+   "success_rate": 0.944
+  },
+  "Japan": {
+   "attempts": 146,
+   "successes": 127,
+   "success_rate": 0.8699
+  },
+  "India": {
+   "attempts": 104,
+   "successes": 92,
+   "success_rate": 0.8846
+  },
+  "Other": {
+   "attempts": 60,
+   "successes": 34,
+   "success_rate": 0.5667
+  }
+ },
+ "years": {
+  "1957": {
+   "world": 3,
+   "successes": 2,
+   "SpaceX": 0,
+   "USA (other)": 1,
+   "Rocket Lab": 0,
+   "USSR/Russia": 2,
+   "China (state)": 0,
+   "China (commercial)": 0,
+   "Europe": 0,
+   "Japan": 0,
+   "India": 0,
+   "Other": 0,
+   "spacex_share": 0.0,
+   "spacex_starship": 0,
+   "falcon": 0,
+   "falcon9": 0,
+   "rest_of_world": 3
+  },
+  "1967": {
+   "world": 139,
+   "successes": 125,
+   "SpaceX": 0,
+   "USA (other)": 61,
+   "Rocket Lab": 0,
+   "USSR/Russia": 74,
+   "China (state)": 0,
+   "China (commercial)": 0,
+   "Europe": 3,
+   "Japan": 1,
+   "India": 0,
+   "Other": 0,
+   "spacex_share": 0.0,
+   "spacex_starship": 0,
+   "falcon": 0,
+   "falcon9": 0,
+   "rest_of_world": 139
+  },
+  "1982": {
+   "world": 129,
+   "successes": 119,
+   "SpaceX": 0,
+   "USA (other)": 18,
+   "Rocket Lab": 0,
+   "USSR/Russia": 108,
+   "China (state)": 1,
+   "China (commercial)": 0,
+   "Europe": 1,
+   "Japan": 1,
+   "India": 0,
+   "Other": 0,
+   "spacex_share": 0.0,
+   "spacex_starship": 0,
+   "falcon": 0,
+   "falcon9": 0,
+   "rest_of_world": 129
+  },
+  "1990": {
+   "world": 121,
+   "successes": 114,
+   "SpaceX": 0,
+   "USA (other)": 27,
+   "Rocket Lab": 0,
+   "USSR/Russia": 79,
+   "China (state)": 5,
+   "China (commercial)": 0,
+   "Europe": 6,
+   "Japan": 3,
+   "India": 0,
+   "Other": 1,
+   "spacex_share": 0.0,
+   "spacex_starship": 0,
+   "falcon": 0,
+   "falcon9": 0,
+   "rest_of_world": 121
+  },
+  "2000": {
+   "world": 85,
+   "successes": 81,
+   "SpaceX": 0,
+   "USA (other)": 29,
+   "Rocket Lab": 0,
+   "USSR/Russia": 32,
+   "China (state)": 5,
+   "China (commercial)": 0,
+   "Europe": 16,
+   "Japan": 1,
+   "India": 0,
+   "Other": 2,
+   "spacex_share": 0.0,
+   "spacex_starship": 0,
+   "falcon": 0,
+   "falcon9": 0,
+   "rest_of_world": 85
+  },
+  "2010": {
+   "world": 74,
+   "successes": 70,
+   "SpaceX": 2,
+   "USA (other)": 13,
+   "Rocket Lab": 0,
+   "USSR/Russia": 30,
+   "China (state)": 15,
+   "China (commercial)": 0,
+   "Europe": 7,
+   "Japan": 2,
+   "India": 3,
+   "Other": 2,
+   "spacex_share": 0.027,
+   "spacex_starship": 0,
+   "falcon": 2,
+   "falcon9": 2,
+   "rest_of_world": 72
+  },
+  "2015": {
+   "world": 87,
+   "successes": 82,
+   "SpaceX": 7,
+   "USA (other)": 13,
+   "Rocket Lab": 0,
+   "USSR/Russia": 26,
+   "China (state)": 19,
+   "China (commercial)": 0,
+   "Europe": 12,
+   "Japan": 4,
+   "India": 5,
+   "Other": 1,
+   "spacex_share": 0.0805,
+   "spacex_starship": 0,
+   "falcon": 7,
+   "falcon9": 7,
+   "rest_of_world": 80
+  },
+  "2020": {
+   "world": 114,
+   "successes": 104,
+   "SpaceX": 25,
+   "USA (other)": 12,
+   "Rocket Lab": 7,
+   "USSR/Russia": 12,
+   "China (state)": 34,
+   "China (commercial)": 5,
+   "Europe": 10,
+   "Japan": 4,
+   "India": 2,
+   "Other": 3,
+   "spacex_share": 0.2193,
+   "spacex_starship": 0,
+   "falcon": 25,
+   "falcon9": 25,
+   "rest_of_world": 89
+  },
+  "2021": {
+   "world": 146,
+   "successes": 135,
+   "SpaceX": 31,
+   "USA (other)": 14,
+   "Rocket Lab": 6,
+   "USSR/Russia": 16,
+   "China (state)": 49,
+   "China (commercial)": 7,
+   "Europe": 15,
+   "Japan": 3,
+   "India": 2,
+   "Other": 3,
+   "spacex_share": 0.2123,
+   "spacex_starship": 0,
+   "falcon": 31,
+   "falcon9": 31,
+   "rest_of_world": 115
+  },
+  "2022": {
+   "world": 186,
+   "successes": 179,
+   "SpaceX": 61,
+   "USA (other)": 17,
+   "Rocket Lab": 9,
+   "USSR/Russia": 21,
+   "China (state)": 53,
+   "China (commercial)": 11,
+   "Europe": 6,
+   "Japan": 1,
+   "India": 5,
+   "Other": 2,
+   "spacex_share": 0.328,
+   "spacex_starship": 0,
+   "falcon": 61,
+   "falcon9": 60,
+   "rest_of_world": 125
+  },
+  "2023": {
+   "world": 221,
+   "successes": 211,
+   "SpaceX": 96,
+   "USA (other)": 9,
+   "Rocket Lab": 9,
+   "USSR/Russia": 19,
+   "China (state)": 47,
+   "China (commercial)": 20,
+   "Europe": 3,
+   "Japan": 3,
+   "India": 7,
+   "Other": 8,
+   "spacex_share": 0.4344,
+   "spacex_starship": 0,
+   "falcon": 96,
+   "falcon9": 91,
+   "rest_of_world": 125
+  },
+  "2024": {
+   "world": 262,
+   "successes": 256,
+   "SpaceX": 137,
+   "USA (other)": 6,
+   "Rocket Lab": 14,
+   "USSR/Russia": 17,
+   "China (state)": 49,
+   "China (commercial)": 19,
+   "Europe": 3,
+   "Japan": 7,
+   "India": 5,
+   "Other": 5,
+   "spacex_share": 0.5229,
+   "spacex_starship": 3,
+   "falcon": 134,
+   "falcon9": 132,
+   "rest_of_world": 125
+  },
+  "2025": {
+   "world": 329,
+   "successes": 318,
+   "SpaceX": 170,
+   "USA (other)": 10,
+   "Rocket Lab": 18,
+   "USSR/Russia": 17,
+   "China (state)": 68,
+   "China (commercial)": 24,
+   "Europe": 8,
+   "Japan": 4,
+   "India": 5,
+   "Other": 5,
+   "spacex_share": 0.5167,
+   "spacex_starship": 5,
+   "falcon": 165,
+   "falcon9": 165,
+   "rest_of_world": 159
+  },
+  "2026": {
+   "world": 269,
+   "successes": 261,
+   "SpaceX": 127,
+   "USA (other)": 11,
+   "Rocket Lab": 19,
+   "USSR/Russia": 15,
+   "China (state)": 54,
+   "China (commercial)": 27,
+   "Europe": 7,
+   "Japan": 4,
+   "India": 4,
+   "Other": 1,
+   "spacex_share": 0.4721,
+   "spacex_starship": 4,
+   "falcon": 123,
+   "falcon9": 120,
+   "rest_of_world": 142
+  }
+ },
+ "ussr_record_year": 1982,
+ "ussr_record": 108,
+ "spacex_beats_rest_years": [
+  2024,
+  2025
+ ],
+ "spacex_cumulative": 732,
+ "spacex_first_orbital_attempt": "2006-03-24",
+ "spacex_success_rate_falcon9": 0.9971,
+ "falcon9_attempts": 701,
+ "falcon9_failures": 2,
+ "falcon9_failure_tags": [
+  [
+   "2015-F02",
+   "2015-06-28"
+  ],
+  [
+   "2024-129",
+   "2024-07-12"
+  ]
+ ],
+ "falcon9_longest_success_streak": 348,
+ "falcon9_streak_end": "2026-11-12",
+ "us_total_by_year_2025": 198,
+ "china_tiers": {
+  "2015": {
+   "private": 0,
+   "state": 19,
+   "state-owned commercial": 0
+  },
+  "2016": {
+   "private": 0,
+   "state": 22,
+   "state-owned commercial": 0
+  },
+  "2017": {
+   "private": 0,
+   "state": 17,
+   "state-owned commercial": 1
+  },
+  "2018": {
+   "private": 1,
+   "state": 37,
+   "state-owned commercial": 1
+  },
+  "2019": {
+   "private": 2,
+   "state": 27,
+   "state-owned commercial": 5
+  },
+  "2020": {
+   "private": 1,
+   "state": 34,
+   "state-owned commercial": 4
+  },
+  "2021": {
+   "private": 3,
+   "state": 49,
+   "state-owned commercial": 4
+  },
+  "2022": {
+   "private": 4,
+   "state": 53,
+   "state-owned commercial": 7
+  },
+  "2023": {
+   "private": 13,
+   "state": 47,
+   "state-owned commercial": 7
+  },
+  "2024": {
+   "private": 8,
+   "state": 49,
+   "state-owned commercial": 11
+  },
+  "2025": {
+   "private": 11,
+   "state": 68,
+   "state-owned commercial": 13
+  },
+  "2026": {
+   "private": 13,
+   "state": 54,
+   "state-owned commercial": 14
+  }
+ },
+ "china_private_first_orbit": {
+  "Xingye Rongyao": "2019-07-25",
+  "Xinghe Dongli": "2020-11-07",
+  "Tianbing Keji": "2023-04-02",
+  "Lanjian Hangtian": "2023-07-12",
+  "Dongfang Kongjian": "2024-01-11"
+ },
+ "china_private_attempts": 56,
+ "china_private_success_rate": 0.7857,
+ "china_private_by_company": {
+  "Dongfang Kongjian": {
+   "attempts": 4,
+   "successes": 4
+  },
+  "Lanjian Hangtian": {
+   "attempts": 13,
+   "successes": 10
+  },
+  "Lingyi Kongjian": {
+   "attempts": 1,
+   "successes": 0
+  },
+  "Tianbing Keji": {
+   "attempts": 2,
+   "successes": 1
+  },
+  "Xinghe Dongli": {
+   "attempts": 28,
+   "successes": 25
+  },
+  "Xingye Rongyao": {
+   "attempts": 8,
+   "successes": 4
+  }
+ },
+ "china_commercial_by_operator": {
+  "CASIC ExPace": {
+   "attempts": 36,
+   "successes": 33
+  },
+  "Changzheng H.": {
+   "attempts": 12,
+   "successes": 12
+  },
+  "Dongfang Kongjian": {
+   "attempts": 4,
+   "successes": 4
+  },
+  "Lanjian Hangtian": {
+   "attempts": 13,
+   "successes": 10
+  },
+  "Lingyi Kongjian": {
+   "attempts": 1,
+   "successes": 0
+  },
+  "Tianbing Keji": {
+   "attempts": 2,
+   "successes": 1
+  },
+  "Xinghe Dongli": {
+   "attempts": 28,
+   "successes": 25
+  },
+  "Xingye Rongyao": {
+   "attempts": 8,
+   "successes": 4
+  },
+  "Zhongguo Shanghuo": {
+   "attempts": 1,
+   "successes": 1
+  },
+  "Zhongke TJ YG": {
+   "attempts": 18,
+   "successes": 17
+  }
+ },
+ "mass": {
+  "1969": {
+   "world_t": 466.0,
+   "spacex_t": 0.0,
+   "spacex_share": 0.0,
+   "starlink_t": 0.0,
+   "starlink_share": 0.0
+  },
+  "1985": {
+   "world_t": 607.6,
+   "spacex_t": 0.0,
+   "spacex_share": 0.0,
+   "starlink_t": 0.0,
+   "starlink_share": 0.0
+  },
+  "2000": {
+   "world_t": 413.8,
+   "spacex_t": 0.0,
+   "spacex_share": 0.0,
+   "starlink_t": 0.0,
+   "starlink_share": 0.0
+  },
+  "2015": {
+   "world_t": 376.7,
+   "spacex_t": 36.6,
+   "spacex_share": 0.0971,
+   "starlink_t": 0.0,
+   "starlink_share": 0.0
+  },
+  "2020": {
+   "world_t": 601.2,
+   "spacex_t": 308.4,
+   "spacex_share": 0.513,
+   "starlink_t": 223.0,
+   "starlink_share": 0.3709
+  },
+  "2022": {
+   "world_t": 1139.6,
+   "spacex_t": 679.6,
+   "spacex_share": 0.5963,
+   "starlink_t": 526.0,
+   "starlink_share": 0.4615
+  },
+  "2023": {
+   "world_t": 1521.7,
+   "spacex_t": 1242.0,
+   "spacex_share": 0.8161,
+   "starlink_t": 1023.5,
+   "starlink_share": 0.6726
+  },
+  "2024": {
+   "world_t": 2099.9,
+   "spacex_t": 1763.3,
+   "spacex_share": 0.8397,
+   "starlink_t": 1465.7,
+   "starlink_share": 0.698
+  },
+  "2025": {
+   "world_t": 2866.5,
+   "spacex_t": 2329.5,
+   "spacex_share": 0.8127,
+   "starlink_t": 1957.8,
+   "starlink_share": 0.683
+  },
+  "2026": {
+   "world_t": 2296.5,
+   "spacex_t": 1787.2,
+   "spacex_share": 0.7782,
+   "starlink_t": 1401.6,
+   "starlink_share": 0.6103
+  }
+ },
+ "mass_all_time_t": 33516.2,
+ "mass_spacex_all_time_t": 9044.3,
+ "starship_flights": [
+  [
+   "2024-U03",
+   "2024-06-06",
+   "OS"
+  ],
+  [
+   "2024-U04",
+   "2024-10-13",
+   "OS"
+  ],
+  [
+   "2024-U06",
+   "2024-11-19",
+   "OS"
+  ],
+  [
+   "2025-F01",
+   "2025-01-16",
+   "OF"
+  ],
+  [
+   "2025-F03",
+   "2025-03-06",
+   "OF"
+  ],
+  [
+   "2025-U02",
+   "2025-05-27",
+   "OS"
+  ],
+  [
+   "2025-U03",
+   "2025-08-26",
+   "OS"
+  ],
+  [
+   "2025-U04",
+   "2025-10-13",
+   "OS"
+  ],
+  [
+   "2026-U02",
+   "2026-05-22",
+   "OS"
+  ],
+  [
+   "2026-U04",
+   "2026-07-24",
+   "OS"
+  ],
+  [
+   "2026-225",
+   "2026-09-28",
+   "OS"
+  ],
+  [
+   "2026-256",
+   "2026-11-13",
+   "OS"
+  ]
+ ],
+ "mass_peak_pre_spacex": {
+  "year": 1985,
+  "t": 607.6
+ },
+ "shuttle_orbiter_t_removed": 12911.0,
+ "payloads_all_time": 28653,
+ "starlink_payloads_all_time": 13080,
+ "starlink_share_of_all_payloads": 0.4565,
+ "payloads": {
+  "2019": {
+   "all": 500,
+   "starlink": 120
+  },
+  "2020": {
+   "all": 1263,
+   "starlink": 833
+  },
+  "2022": {
+   "all": 2492,
+   "starlink": 1722
+  },
+  "2024": {
+   "all": 2843,
+   "starlink": 1962
+  },
+  "2025": {
+   "all": 4523,
+   "starlink": 3169
+  },
+  "2026": {
+   "all": 3794,
+   "starlink": 2301
+  }
+ },
+ "payloads_before_first_starlink": 8635,
+ "first_starlink_launch": "2019-05-24",
+ "falcon_core_flights": 691,
+ "falcon_core_flights_reflown": 639,
+ "falcon_distinct_boosters": 72,
+ "booster_most_flights": {
+  "booster": "B1067",
+  "flights": 37,
+  "top5": {
+   "B1067": 37,
+   "B1063": 36,
+   "B1071": 35,
+   "B1069": 32,
+   "B1078": 30
+  }
+ },
+ "first_reflight": {
+  "booster": "B1021",
+  "date": "2017-03-30",
+  "tag": "2017-017"
+ },
+ "fastest_turnaround": {
+  "booster": "B1088",
+  "days": 9.15,
+  "date": "2025-03-21",
+  "tag": "2025-058"
+ },
+ "median_turnaround_days": {
+  "2018": 118.5,
+  "2019": 134.7,
+  "2020": 78.6,
+  "2021": 62.6,
+  "2022": 61.5,
+  "2023": 53.7,
+  "2024": 40.1,
+  "2025": 37.4,
+  "2026": 41.6
+ },
+ "falcon9_reflown_share": {
+  "2017": 0.2778,
+  "2018": 0.55,
+  "2019": 0.7273,
+  "2020": 0.8,
+  "2021": 0.9355,
+  "2022": 0.9333,
+  "2023": 0.956,
+  "2024": 0.9621,
+  "2025": 0.9515,
+  "2026": 0.9833
+ }
+}
