@@ -20,7 +20,7 @@ data update **2026 Nov 19** (2026 is a partial year).
 | SpaceX in 2024 | 137 vs 125 | first year SpaceX out-launched the rest of the world |
 | SpaceX in 2026 (to Nov 19) | 127 vs 142 | the rest of the world is ahead again, mostly China |
 | Falcon 9 record | 701 attempts, **2 failures** (2015, 2024); 348 successes in a row since July 2024 | the 2016 Amos-6 pad explosion is not a launch in GCAT |
-| Starlink satellites placed in orbit | **13,080**, i.e. 45.7 % of all 28,653 payloads ever | humanity orbited 8,635 payloads from Sputnik to the first Starlink launch (24 May 2019) |
+| Starlink satellites placed in orbit | **13,080**, i.e. 45.6 % of all 28,653 payloads ever | humanity orbited 8,635 payloads from Sputnik to the first Starlink launch (24 May 2019) |
 | Payload mass in orbit, 2025 | **2,867 t**; SpaceX 81 %; Starlink alone 1,958 t | pre-2020 record year: 608 t (1985) |
 | SpaceX share of all payload mass since 1957 | 9,044 t of 33,516 t = **27 %** | Shuttle orbiter / Buran / Starship ship masses removed |
 | Falcon boosters | 72 cores, 691 flights, 639 of them re-flights | B1067 flew 37 times; fastest turnaround 9.15 days (B1088, March 2025) |
