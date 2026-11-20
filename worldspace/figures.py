@@ -295,16 +295,28 @@ def success(t, f, lang, save):
 def spacex_vs_rest(t, f, lang, save, year=2025):
     L = T[lang]
     Y = _fig_table(t["by_year"]).loc[year]
-    fig, ax = plt.subplots(figsize=(11, 3.6))
+    fig, ax = plt.subplots(figsize=(11, 4.2))
     ax.barh([1], [Y["SpaceX"]], color=COLORS["SpaceX"], height=0.6)
     left = 0
     rest = [g for g in FIG_GROUPS if g != "SpaceX"]
+    small = []
     for g in rest:
         ax.barh([0], [Y[g]], left=left, color=COLORS[g], height=0.6, edgecolor=BG, linewidth=1.5)
-        if Y[g] >= 8:
+        if Y[g] >= 10:
             ax.text(left + Y[g] / 2, 0, f"{SHORT[lang].get(g, g)}\n{int(Y[g])}", ha="center",
                     va="center", fontsize=7.5, color="#0b0e14")
+        elif Y[g] > 0:
+            small.append((left + Y[g] / 2, g))
         left += Y[g]
+    # Segments too narrow for an inside label: label below the bar with a leader line, staggered.
+    for i, (x, g) in enumerate(small):
+        name = SHORT[lang].get(g, g).replace("\n", " ")
+        yl = -0.55 - 0.28 * (i % 2)
+        ax.plot([x, x], [-0.31, yl + 0.08], color=COLORS[g], lw=1)
+        upper = i % 2 == 0  # upper-row labels start at their line so lower-row lines never cross them
+        ax.text(x - 0.6 if upper else x, yl, f"{name} {int(Y[g])}", ha="left" if upper else "center", va="top",
+                fontsize=8, color=COLORS[g], weight="bold")
+    ax.set_ylim(-1.05, 1.45)
     ax.text(Y["SpaceX"] + 3, 1, f"{int(Y['SpaceX'])}", va="center", color=INK, fontsize=13, weight="bold")
     ax.text(left + 3, 0, f"{int(left)}", va="center", color=INK, fontsize=13, weight="bold")
     ax.set_yticks([0, 1])
@@ -322,9 +334,10 @@ def spacex_vs_rest(t, f, lang, save, year=2025):
 
 
 SHORT = {"en": {"China (commercial)": "China\ncommercial", "China (state)": "China state",
-                "USA (other)": "USA other\n+ Rocket Lab", "USSR/Russia": "Russia"},
+                "USA (other)": "USA other\n+ Rocket Lab", "USSR/Russia": "Russia", "Other": "Others"},
          "es": {"China (commercial)": "China\ncomercial", "China (state)": "China estatal",
-                "USA (other)": "EE. UU. otros\n+ Rocket Lab", "USSR/Russia": "Rusia", "Europe": "Europa"}}
+                "USA (other)": "EE. UU. otros\n+ Rocket Lab", "USSR/Russia": "Rusia", "Europe": "Europa",
+                "Japan": "Japón", "Other": "Otros"}}
 
 ALL = [per_year, spacex_share, china, mass, reuse, success, spacex_vs_rest]
 
